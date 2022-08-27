@@ -5,7 +5,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className='bg-gradient-to-b from-slate-600 to-black text-white whitespace-pre-wrap text-center py-14 h-screen font-serif'>
+    <div className='bg-gradient-to-b from-slate-600 to-black text-white whitespace-pre-wrap text-center py-4 h-screen font-serif md:py-32'>
         <div className='flex justify-center space-x-12'>
             <a href="https://github.com/N1ssen4">
             <GithubIcon/>
@@ -18,7 +18,7 @@ export const Footer = () => {
             </a>
             
         </div>
-        <p className='py-10 whitespace-pre-wrap mx-36'>Developed by Mads Rosenlund Nissen</p>
+        <p className='py-8 whitespace-pre-wrap mx-34 md:text-xl md:pb-32 lg:text-2xl'>Developed by Mads Rosenlund Nissen</p>
     </div>
   )
 }
